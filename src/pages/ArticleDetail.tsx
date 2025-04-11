@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import MainLayout from '@/components/layout/MainLayout';
 import ArticleList from '@/components/articles/ArticleList';
+import ArticleCard from '@/components/articles/ArticleCard';
 import ShareButtons from '@/components/articles/ShareButtons';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
